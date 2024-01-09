@@ -1,0 +1,31 @@
+{
+  "name": "ai_trader",
+  "version": "1.0.0",
+  "description": "Using Machine Learning Algorithms and Technical Analysis to improve stock trading",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "builder": "node builder.js",
+    "play": "node playground.js",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanBuss01/AI_trader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanBuss01/AI_trader/issues"
+  },
+  "homepage": "https://github.com/RyanBuss01/AI_trader#readme",
+  "dependencies": {
+    "@alpacahq/alpaca-trade-api": "^2.16.1",
+    "@tensorflow/tfjs": "^4.13.0",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "path": "^0.12.7",
+    "prompt-sync": "^4.2.0"
+  }
+}
