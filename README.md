@@ -20,12 +20,3 @@ then to run:
 
 # Update notes
 
-10/21 - Created
-
-
-- Created actions tree
-- set up bar manager
-- probability
-- Cosine sim alert
-- builder
-- .gitignore
